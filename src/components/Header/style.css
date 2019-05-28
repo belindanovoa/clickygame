@@ -1,0 +1,28 @@
+.header {
+
+    background-image: url("/assets/images/Background.jpg");
+    background-color: rgb(244, 179, 100);
+    background-repeat: repeat;
+    color: white;
+    min-height: 100px;
+    padding: 100px 100px; 
+    padding-bottom: 25px;
+    font-family: "Tahoma";
+    text-align: center;
+  }
+  
+  .h1 {
+    margin: 0;
+    margin-bottom: 45px;
+    font-size: 4rem;
+    font-family: "Tahoma";
+    
+  }
+  
+  .h2 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-family: "Tahoma";
+  }
+  

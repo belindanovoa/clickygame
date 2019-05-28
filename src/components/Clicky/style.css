@@ -1,0 +1,54 @@
+.click-tile {
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+    width: 170px;
+    margin: 8px 25px;
+    border: 5px solid rgb(241, 241, 241);
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+  }
+  .click-tile:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.1s;
+  }
+  
+  .shake {
+    animation: shake .5s 0.0125s;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .click-item {
+      margin: 10px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .click-item {
+      margin: 10px;
+    }
+  } 
+  
